@@ -1,0 +1,797 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>A arte da Programação Orientada à Gambiarra</title>
+        <meta name="description" content="A arte da Programação Orientada à Gambiarra - Como garantir que o inferno seja uma amostra grátis do seu trabalho!">
+        <meta name="author" content="Josenaldo de Oliveira Matos Filho">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="css/reveal.min.css">
+        <link rel="stylesheet" href="css/theme/solarized.css" id="theme">
+        <!-- For syntax highlighting -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+        <script>
+                if( window.location.search.match( /print-pdf/gi ) ) {
+                var link = document.createElement( 'link' );
+                link.rel = 'stylesheet';
+                link.type = 'text/css';
+                link.href = 'css/print/pdf.css';
+                document.getElementsByTagName( 'head' )[0].appendChild( link );
+                }
+        </script>
+        <!--[if lt IE 9]>
+        <script src="lib/js/html5shiv.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="css/pog.css">
+    </head>
+    <body>
+        <div class="reveal">
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+                <section>
+                    <h1>A arte da Programação Orientada à Gambiarra</h1>
+                    <h3 class="color4-darker">Como garantir que o inferno seja uma amostra grátis do seu trabalho!</h3>
+                </section>
+
+                <section>
+                    <h2>Para quem não me conhece:</h2>
+                    <ul class="color4-darker">
+                        <li>Josenaldo de Oliveira Matos Filho</li>
+                        <li>Jugleaders no <a href="http://uaijug.com.br" target="_blank">UaiJUG - http://uaijug.com.br</a></li>
+                        <li>Há mais de 10 anos é transformando cafeína em código fonte</li>
+                        <li>Viciado em vícios viciantes: café, livros, jogos, podcast, música, filmes...</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Agenda</h2>
+                    <ol class="color4-darker">
+                        <li>O que é POG</li>
+                        <li>Histórico</li>
+                        <li>Requisitos</li>
+                        <li>Princípios</li>
+                        <li>Técnicas</li>
+                        <li>Gambi Design Patterns</li>
+                    </ol>
+
+                    <blockquote>
+                        <p>É só fazer do jeito que eu to falando que entregamos na data correta.</p>
+                        <cite>Diretor TI POG sobre projeto com tempo recorde!</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>O que é POG?</h2>
+                    <p class="lead color4-darker">Paradigma de desenvolvimento de software no qual se utiliza um improviso planejado temporário permanente na resolução de um problema.</p>
+                    <p>Tende a gerar mais problemas do que resolve.</p>
+                    <p class="color5-darker">Emprego garantido!</p>
+                    <blockquote>
+                        <p>A culpa é do Hardware!</p>
+                        <cite>Desenvolvedor de software sobre POG</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Histórico da POG</h2>
+
+                    <div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/Gregory_XIII.jpg" class="img-center img-70" alt="Paga Gregorio">
+                            </div>
+                            <div class="col-md-8 color4-darker">
+                                <p class="lead">A primeira POG da história foi criada pelo Paga Gregório XIII</p>
+                                <ul>
+                                    <li>Nosso calendário: 365 dias</li>
+                                    <li>Translação da Terra: 365,25</li>
+                                    <li>Problema: 6 Horas a mais por ano!</li>
+                                    <li>Resolução: um dia a mais a cada 4 anos!</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <h3>29 de Fevereiro – Dia Internacional da POG</h3>
+                    </div>
+                    <blockquote>
+                        <p>O Papa é POG</p>
+                        <cite>Engenheiros do Hawaii sobre POG</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Requisitos para se usar POG</h2>
+                    <ul class="color4-darker">
+                        <li>Pessoas não qualificadas se intrometendo no desenvolvimento</li>
+                        <li>Equipe apática</li>
+                        <li>Profissionais superestimados</li>
+                        <li>Prazos absurdamente suicidas</li>
+                        <li>Aproximação do fim do expediente, férias, feriado ou fim de semana</li>
+                    </ul>
+                    <blockquote>
+                        <p>java.lang.NullPointerException</p>
+                        <cite>Java sobre POG</cite>
+                    </blockquote>
+                </section>
+
+                 <section>
+                    <h2>Requisitos para se usar POG</h2>
+                    <ul class="color4-darker">
+                        <li>Churrascos!</li>
+                        <li>Sistemas originalmente mal projetados</li>
+                        <li>Aparecimento caótico de requisitos</li>
+                        <li>Processo Go Horse!</li>
+                        <li>Ausência de café</li>
+                    </ul>
+                     <blockquote>
+                        <p>Eu fiz somente o que foi especificado!</p>
+                        <cite>Analista, especialista no processo Go Horse </cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Princípios da POG</h2>
+                    <dl>
+                        <dt class="color4-darker">Enjambração Criativística</dt>
+                        <dd>Use o código do sistema financeiro para criar o sistema de EAD.</dd>
+
+                        <dt class="color4-darker">Reflexão Reprodutória</dt>
+                        <dd>Cópie o código da biblioteca XYZ. Ninguém vai notar.</dd>
+
+                        <dt class="color4-darker">Redireção Tangencial</dt>
+                        <dd>A culpa não é minha!</dd>
+                    </dl>
+                    <blockquote>
+                        <p>Se compilou é porque funciona!</p>
+                        <cite>Você, ao fazer POG</cite>
+                    </blockquote>
+                </section>
+
+                 <section>
+                    <h2>Princípios da POG</h2>
+                    <dl>
+                        <dt class="color4-darker">Insistimento Determinante</dt>
+                        <dd>Compila de novo que dessa vez vai dar certo.</dd>
+
+                        <dt class="color4-darker">Onisciência Finita</dt>
+                        <dd>Não precisa fazer curso. Usa o que você já sabe.</dd>
+
+                        <dt class="color4-darker">Imperativo Funcional</dt>
+                        <dd>O importante é funcionar!</dd>
+                    </dl>
+                    <blockquote>
+                        <p>Esta é a solução ótima, não temos tempo para isso. Faça a solução boa! O ótimo é inimigo do bom.</p>
+                        <cite>Líder de Projeto sobre POG</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Princípios da POG</h2>
+                    <dl>
+                        <dt class="color4-darker">Proatividade Egocêntrica</dt>
+                        <dd>Vamos fazer do meu jeito!</dd>
+
+                        <dt class="color4-darker">Devaneio Entusiasmado</dt>
+                        <dd>Lady Murphy? Balela! Faz desse jeito que nada vai dar errado.</dd>
+
+                        <dt class="color4-darker">Foco Morcegativo</dt>
+                        <dd>Depois eu faço isso!</dd>
+                    </dl>
+                    <blockquote>
+                        <p>É fácil, não vejo dificuldade em fazer isso!</p>
+                        <cite>Gerente sem-noção definindo prazo junto com o POGgramador</cite>
+                    </blockquote>
+                </section>
+
+                 <section>
+                    <h2>Princípios da POG</h2>
+                    <dl>
+                        <dt class="color4-darker">Documentação Espartana</dt>
+                        <dd>Comentários são para amadores!</dd>
+
+                        <dt class="color4-darker">Economia Linear</dt>
+                        <dd>Menos linhas é sempre melhor!</dd>
+
+                        <dt class="color4-darker">Criptocodagem</dt>
+                        <dd>1337 h4x0r5 dud3 lol</dd>
+                    </dl>
+                    <blockquote>
+                        <p>Reza e cruza os dedos que vai funcionar! </p>
+                        <cite>POG Pai de Santo falando para um POGramador menos experimente... </cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Princípios</h2>
+                    <dl>
+                        <dt class="color4-darker">Abstração Ignorancial</dt>
+                        <dd>Esqueça o tratamento de erros. Depois cuidamos disso.</dd>
+
+                        <dt class="color4-darker">Criatividade Diversificativa</dt>
+                        <dd>Se alguém já usou uma solução, faça diferente.</dd>
+
+                        <dt class="color4-darker">Simplicidade Indolente</dt>
+                        <dd>Se tá funcionando sem isso, pra que colocar?</dd>
+                    </dl>
+                    <blockquote>
+                        <p>Vai programando aí que eu vou ver o que o cliente quer</p>
+                        <cite>Gerente sem-noção sobre POG</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h1>Técnicas de POG</h1>
+                    <h2 class="color4-darker">The ninja POG!</h2>
+                    <img class="img-center" src="img/ninja.png"></img>
+                </section>
+
+                <section>
+                    <h2>Zipomatic Versioning</h2>
+                   <div class="row">
+                       <div class="col-md-6  color4-darker">
+                           <p>Precisa guardar versões?</p>
+                           <ul>
+                               <li>Use arquivos ZIP!</li>
+                               <li>NomeDoProjeto_data.zip</li>
+                               <li>Pasta de zips compartilhada</li>
+                               <li>Funciona e não dá dor de cabeça</li>
+                           </ul>
+                       </div>
+                       <div class="col-md-6 color5-darker">
+                           <p>NUNCA USE</p>
+                           <ul>
+                               <li>Ferramentas de versionamento</li>
+                               <li>SVN é coisa do diabo</li>
+                               <li>Git nem o diabo quer</li>
+                           </ul>
+                       </div>
+                   </div>
+
+                    <blockquote>
+                        <p>Na minha máquina funcionou</p>
+                        <cite>POGramador sobre POG</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Incremental Patching Debug</h2>
+                    <div class="row">
+                        <div class="col-md-6 color4-darker">
+                            <p>A versão atual parou?</p>
+                            <ul>
+                                <li>Pegue o zip com a versão antiga</li>
+                                <li>Começa tudo de novo</li>
+                                <li>Substituição de arquivos é suficiente</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 color5-darker">
+                            <p>NUNCA USE</p>
+                            <ul>
+                                <li>Depuração</li>
+                                <li>Versionamento</li>
+                                <li>Testes automatizados</li>
+                                <li>Revisão de código</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <blockquote>
+                        <p>Limpa o histórico e o cache e dá um [Control + F5] que funciona</p>
+                        <cite>Resposta padrão do Webmaster sobre POG</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>My Precious</h2>
+                    <div class="row">
+                        <div class="col-md-6 color4-darker">
+                            <p>Querem alterar seu código?</p>
+                            <ul>
+                                <li>Não permita!</li>
+                                <li>Ninguém pode entender seu brilhantismo nato</li>
+                                <li>Só você mexe no seu código</li>
+                                <li>Só você entende seu código</li>
+                                <li>Imperativo Funcional!</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 color5-darker">
+                            <p>NUNCA USE</p>
+                            <ul>
+                                <li>Programação em par</li>
+                                <li>Revisão de código</li>
+                                <li>Código compartilhado</li>
+                                <li>Versionamento distribuído ou centralizado</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <blockquote>
+                        <p>Ontem tava funcionando!</p>
+                        <cite>POGramador dando uma descupa sobre POG</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Psychoding</h2>
+                    <div class="row">
+                        <div class="col-md-6 color4-darker">
+                            <p>Não sabe como fazer algo?</p>
+                            <ul>
+                                <li>Abra sua mente espiritual (seu navegador)</li>
+                                <li>Acesse o nirvana do conhecimento (Google)</li>
+                                <li>Deixe-se vagar pelas espirais da consciência coletiva (fórunse StackOverFlow)</li>
+                                <li>Seja inundado pela inspiração divina (copia o que achar)</li>
+                                <li>Não procure entender a solução</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 color5-darker">
+                            <p>NUNCA FAÇA</p>
+                            <ul>
+                                <li>Estudar</li>
+                                <li>Participar de comunidades</li>
+                                <li>Aprender novas tecnologias</li>
+                                <li>Coding dojo</li>
+                                <li>Hackathon</li>
+                                <li>Ler</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <blockquote>
+                        <p>Não me interessa se é restrição da ferramenta, dá um jeito e coloca isso funcionando até amanhã!</p>
+                        <cite>Gerente de Projeto mostrando como se lidera a equipe a criar uma POG </cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h1>Gambi Design Patterns</h1>
+                    <h2 class="color4-darker">May the POG be with you!</h2>
+                    <img src="img/JediTux.png" alt="Tux POG Jedi" class="img-center">
+                </section>
+
+                <section>
+                    <h2>WTF / WTH / QPE</h2>
+                    <ul class="color4-darker">
+                        <li>Sabe aquele código que você sabe que funciona, mas que, pra você, parece magia negra?</li>
+                    </ul>
+                    <pre><code data-trim>
+                        "/ .*?<  ".replaceAll("","").trim();
+                    </code></pre>
+
+                    <img class="img-50 img-center" src="img/wat.png" alt="wat">
+
+                    <blockquote>
+                        <p>É só colocar um IF!!</p>
+                        <cite>Gerente sem-noção sugerindo a solução técnica</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>RCP Pattern ( Reuse by Copy-and-Paste )</h2>
+                    <ul class="color4-darker">
+                        <li>Copie o máximo de código que puder: Princípio da Reflexão Reprodutória</li>
+                        <li>A baixa adaptabilidade e difícil manutenção tornam o programa mais estável</li>
+                        <li>Se precisar alterar, copie e cole de novo!</li>
+                    </ul>
+                    <blockquote>
+                        <p>Tive que arrumar direto no banco - daí funcionou! Se o problema "voltar", nos ligue novamente.</p>
+                        <cite>POGger sobre O Poder da Fé.</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Hardcoded data</h2>
+                    <ul class="color4-darker">
+                        <li>Um dos padrões mais usados na indústria</li>
+                        <li>Não coloque dados em arquivos e bancos de dados</li>
+                        <li>Dados devem ficar diretamente no código</li>
+                        <li>É muito mais performático</li>
+                    </ul>
+
+                    <pre><code data-trim>
+//Xunxa o nome da impressora no código. Quem quer escolher impressora?
+infoImpressao = ImpressaoUtils.getInfoImpressao(codigoRelatorio, "PADRAO");
+                    </code></pre>
+
+                    <blockquote>
+                        <p>É só gerar tudo de novo, provavelmente deu erro na especificação.</p>
+                        <cite>POGgramador com sua desculpa POG para o problema</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h1>ATENÇÃO</h1>
+                    <img src="img/winter.png" alt="POG is comming" class="img-center img-70">
+                </section>
+
+                <section>
+                    <h2>FORCEPS</h2>
+                    <ul class="color4-darker">
+                        <li>Por algum motivo nefasto, uma variável não recebe o valor que deveria ter. O que fazer?</li>
+                        <li>Vai deixar esse pedaço de sucata pré-positrônica comandar sua vida?</li>
+                    </ul>
+
+                    <pre><code data-trim>
+/* Variável é inicializada */
+String valor = "123";
+
+/* ... lógica do programa ... */
+
+/* Dentro de um método que utiliza a variável 'valor' */
+if (valor != "123") {
+    valor = "123";
+    processaValor(valor);
+}
+                    </code></pre>
+                    <blockquote>
+                        <p>O código tá certo, deve ser problema na massa de dados.</p>
+                        <cite>POGgramador Experiente, com várias certificações em POG</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Ostrich Syndrome Skill</h2>
+                    <ul class="color4-darker">
+                        <li>O que os olhos não veem, o coração não sente</li>
+                        <li>IGNORE qualquer Warning do compilador e da IDE</li>
+                        <li>Isso é frescura deles</li>
+                        <li>De preferência, use o @SuppressWarnings("all")</li>
+                    </ul>
+                    <img src="img/warnings.png" alt="Warnings" class="img-50 img-center">
+                    <blockquote>
+                        <p>Terminei, só falta testar.</p>
+                        <cite>POGgramador, às 18h00, com a mochila nas costas, falando pro chefe</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Nonsense Flag/Nonsense Naming</h2>
+                    <ul class="color4-darker">
+                        <li>Pra que quebrar a cabeça para usar nomes óbvios? Isso é uma falha de segurança!</li>
+                        <li>Ignore qualquer convenção existente!</li>
+                        <li>Use nomes que não revelem o propósito do identificador</li>
+                        <li>Nomes perfeitamente aceitáveis como identificadores</li>
+                    </ul>
+
+                    <pre><code data-trim>
+teste1, temp2, a, b, x
+jaTrocouDeAba, botaoClicado, foiAtualizado, passouPorAqui
+numeroMagico, naoAchou, temErro
+anterior5, atual5, anteriorDoAnterior5 
+                    </code></pre>
+                    <blockquote>
+                        <p>É só reiniciar que funciona!</p>
+                        <cite>POGgramador logo de manhã com copo de café na mão</cite>
+                    </blockquote>
+                </section>
+
+
+                 <section>
+                    <h2>Commented Code Implementation / Comments Forever</h2>
+                    <ul class="color4-darker">
+                        <li>O programa está dando problema?</li>
+                        <li>Comenta que resolve! Aplique o Insistimento Determinante!</li>
+                        <li>A partir desse momento, o comentário vira parte do código</li>
+                        <li>Se alguém mexer, para tudo</li>
+                    </ul>
+                    <blockquote>
+                        <p>Bom, deixa estourar a bomba lá, aí quando vierem me pentelhar aqui eu vejo o que faço... </p>
+                        <cite>POGgramador para outro POGgramador, só esperando o problema voltar </cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Reinvented Square Wheel Helper</h2>
+                    <ul class="color4-darker">
+                        <li>Se não lembra de como usar um recurso da linguagem, faça você mesmo!</li>
+                    </ul>
+                    <pre><code data-trim>
+if (number.equals("1")) {
+    return 1;
+} else if (number.equals("2")) {
+    return 2;
+} else if (number.equals("3")) {
+    return 3;
+} else if (number.equals("4")) {
+    return 4;
+} else if (number.equals(“5")) {
+    return 5;
+} else if (...) {
+    ...
+}else if (number.equals(“10000000")) {
+    return 10000000;
+}
+                    </code></pre>
+                    <blockquote>
+                        <p>Hmmm.. que estranho... Não era para acontecer isso...</p>
+                        <cite>Programador fazendo uma demonstração do software</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>You Shall Not Pass</h2>
+                    <ul class="color4-darker">
+                        <li>Capture e trate TODO tipo de problema que ocorrer</li>
+                    </ul>
+                    <img src="img/galdalf.png" alt="Run you fools!" class="img-center img-70">
+                    <blockquote>
+                        <p>Que lixo que fizeram!!! Olha isso!!</p>
+                        <cite>POGgramador falando sobre o código de outro POGgramador</cite>
+                    </blockquote>
+                </section>
+
+                 <section>
+                    <h2>Perfectness Execution / BulletProof</h2>
+                    <ul class="color4-darker">
+                        <li>Garanta que qualquer operação complexa sempre execute com sucesso!</li>
+                        <li>O sistema não deve apresentar erros</li>
+                    </ul>
+                    <pre><code data-trim>
+try {
+    if (alterar(valor1, valor2)) {
+        return new Mensagem("Operação concluída com sucesso!");
+    } else {
+        return new Mensagem("Operação concluída com sucesso!");
+    }
+} catch (Throwable e) {
+     return new Mensagem("Operação concluída com sucesso!");
+}
+                    </code></pre>
+                    <blockquote>
+                        <p> ...ah!!! Isto é um erro comum do Windows!</p>
+                        <cite>POGramador tentando ganhar tempo para corrigir seu código</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Exception Success</h2>
+                    <ul class="color4-darker">
+                        <li>Use exceções para o controle de fluxo do POGrama!</li>
+                    </ul>
+
+                    <pre><code data-trim>
+public static void somar(int a, int b) {
+    System.out.println(a + b);
+    throw new RuntimeException("Operação realizada com sucesso!");
+}
+                    </code></pre>
+
+                    <pre><code data-trim>
+if (!request.getSession(true).getAttribute("TipoUsuario").toString().equals("1")) {
+    throw new Exception(
+    "<span style=\"color:#ff0000;\"><b><u>Acesso negado</u>:</b>"
+    + " somente usuários com perfil de "
+    + "administrador podem ter acesso a esta página.</span>");
+}
+                    </code></pre>
+                    <blockquote>
+                        <p>Quando eu cheguei já tava assim!!!</p>
+                        <cite>Gambizeiro querendo tirar o seu da reta!</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>String Sushiman</h2>
+                    <ul class="color4-darker">
+                        <li>Ao invés de criar parâmetros, passe uma ou poucas strings!</li>
+                        <li>Crie quantas regras forem necessárias sobre essas strings!</li>
+                    </ul>
+
+                    <pre><code data-trim>
+public Tabela montaTabela(String linguicao){
+
+    String[] colunas = linguicao.split("|");
+
+    for(String coluna : colunas){
+        String[] campos = coluna.split(",");
+        // POGuices com os valores
+    }
+}
+                    </code></pre>
+                    <blockquote>
+                        <p>Quando eu testei, funcionou! </p>
+                        <cite>POGramador demonstrando as gambiarras para seu Gerente Sem Noçao</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Sleeper / Human Factor</h2>
+                    <ul class="color4-darker">
+                        <li>Se a ação é rápida demais para o usuário perceber, coloque um atraso!</li>
+                    </ul>
+
+                    <pre><code data-trim>
+public class MedidorDePOGresso implements Runnable {
+    public void run() {
+        while (true) {
+            // Realiza um processamento rápido aqui...
+            try {
+                // ... atrasa propositalmente aqui
+                Thread.sleep(1000);
+            } catch (InterruptedException exc) {
+            }
+            progress.setValue(blablabla.getPorcentagem());
+        }
+    }
+}
+                    </code></pre>
+                    <blockquote>
+                        <p>Até ontém quando eu mexi estava tudo funcionando!</p>
+                        <cite>Resposta do POGramador ao ser questionado sobre a pane geral no sistema</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Black Cat in a Dark Room</h2>
+                    <ul class="color4-darker">
+                        <li>Precisa usar vários parâmetros para um método?</li>
+                        <li>Use um MAP!</li>
+                        <li>Muito usado em PHP e em Java</li>
+                        <li>É o capiroto em forma de design pattern!</li>
+                    </ul>
+                    <img src="img/cat.jpg" alt="Map com parâmetros é mochila de criança!" class="img-center img-50">
+                    <blockquote>
+                        <p>Tem bug, mas não é no código!!</p>
+                        <cite>Estagiário justificando os erros no programa para o gerente</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Mega Zord</h2>
+                    <ul class="color4-darker">
+                        <li>Criar várias funções torna o programa mais lento.</li>
+                        <li>Crie uma única função guerreira que receberá todos os parâmetros e fará todas as funcionalidades possíveis</li>
+                    </ul>
+                    <img src="img/megaman.png" alt="Robô do Spielvan" class="img-center img-50">
+                    <blockquote>
+                        <p>Claro que dá pra alterar essa configuração. É só mexer no código!</p>
+                        <cite>POGramador propondo uma POG ao gerente</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Thunder Mega Zord</h2>
+                    <ul class="color4-darker">
+                        <li>A fusão entre um Megazord e um Gato preto em Quarto Escuro cria um Thunder Megazord</li>
+                    </ul>
+                    <img src="img/megamanx.png" alt="Robô do Spielvan" class="img-center img-50">
+                    <blockquote>
+                        <p>O Senhor já tentou reiniciar seu computador? Caso sim vou pedir que desligue seu modem e religue novamente...</p>
+                        <cite>Atendente da CTBC ou Velox utilizando técnicas de TelePOG</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Thunder Mega Zord</h2>
+                    <pre><code data-trim>
+/**
+ * Processa
+ *
+ * @param parametros
+ * @return
+ * @throws Throwable
+ */
+public static Object[] processar(Map parametros) throws Throwable {
+    // Aí é aquilo, mermão...
+    // ...
+    // ...
+    return processado;
+}
+                    </code></pre>
+                    <blockquote>
+                        <p>Internet Explorer 7 ? Atualiza pro 8 que funciona</p>
+                        <cite>POGramador com esperança de que o sistema ainda irá funcionar</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Controller Confusion</h2>
+                    <ul class="color4-darker">
+                        <li>Elimine o M do padrão MVC e coloque tudo no Controler</li>
+                        <li>Padrão VCC – “View/Controller Confusion”</li>
+                        <li>Os POGramadores mais avançados são capazes de ignorar o V e ficar apenas com o CCC –Chaotic Controller Confusion</li>
+                    </ul>
+                    <blockquote>
+                        <p>Não se preocupe, nenhum sistema "entra redondo". O importante agora é entrar em produção, depois consertamos os erros! </p>
+                        <cite>Gerente sem noção tentando acalmar desenvolvedor sobre projeto MOG com prazo estourado. </cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>No More Layers</h2>
+
+                    <ul class="color4-darker">
+                        <li>Frameworks e camadas são coisas para fracos</li>
+                        <li>Faça tudo diretamente na tela!</li>
+                        <li>Muito utilizado em .Net, Delphi e VB 6</li>
+                        <li>Também é bastante utilizado em PHP</li>
+                        <li>Uma variedade do CCC, mas com tudo feito na Tela</li>
+                    </ul>
+
+                    <blockquote>
+                        <p>Deu erro...comenta!</p>
+                        <cite>Alunos descobrindo como fazer POG, na faculdade.</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>DB is our God</h2>
+                    <ul class="color4-darker">
+                        <li>Também conhecido como In DB we trust.</li>
+                        <li>Padrão gambi arquitetural em que TUDO é no banco de dados:
+                            <ul>
+                                <li>Dados</li>
+                                <li>Arquivos</li>
+                                <li>Imagens</li>
+                                <li>Lógica de negócio</li>
+                                <li>Tratamento de erros</li>
+                                <li>Geração de HTML</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <blockquote>
+                        <p>É só um botão, o que pode dar errado?</p>
+                        <cite>Gerente sem-noção sobre nova funcionalidade</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Conclusões Opinativas Completamente Irrelevantes</h2>
+                    <ul class="color4-darker">
+                        <li>POG é uma arte dominada por poucos</li>
+                        <li>Quanto mais experiente, menos POGramador</li>
+                        <li>Quanto mais conhecimento, menor a capacidade de POGagem</li>
+                        <li>Quanto mais disciplinado, menor a atração sobre POGs</li>
+                    </ul>
+                    <blockquote>
+                        <p>Vou realizar os testes em produção</p>
+                        <cite>POGramador corajoso arrancando suspiros das mocinhas inocentes</cite>
+                    </blockquote>
+                </section>
+
+                <section>
+                    <h2>Materiais que imitam ou se inspiram nesta apresentação</h2>
+                    <ul class="color4-darker">
+                        <li>
+                            <a href="http://desciclopedia.org/wiki/Programa%C3%A7%C3%A3o_Orientada_a_Gambiarras" target="_blank">
+                                Programação Orientada a Gambiarra - Desciclopédia
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://desciclopedia.org/wiki/Gambi_Design_Patterns" target="_blank">
+                                Gambi Design Patterns - Desciclopédia
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/carlosaml/gambi-design-patterns" target="_blank">
+                                Gambi Design Patterns - GitHub
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Contatos</h2>
+                    <ul class="color4-darker">
+                        <li>Email: josenaldo@gmail.com</li>
+                        <li>Skype: josenaldo.matos</li>
+                        <li>Twitter: @josenaldomatos</li>
+                    </ul>
+                    <blockquote>
+                        <p>Mais uma pérola de sabedoria sobre POG</p>
+                        <cite>POGramador enfadado de aplicar a Reflexão Reprodutória.</cite>
+                    </blockquote>
+                </section>
+                <section>
+                    <h1  class="color5-darker">Vida longa e próspera, jovens gafanhotos</h1>
+                    <img src="img/pogramador.png" alt="Magníficas oportunidades!" class="img-center">
+                </section>
+            </div>
+        </div>
+
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.min.js"></script>
+        <script src="js/pog.js"></script>
+    </body>
+</html>

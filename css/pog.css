@@ -1,0 +1,117 @@
+.reveal .lead {
+	font-size: :105%;
+	font-weight: bolder;
+}
+.reveal blockquote {
+	width: 100%;
+    font-size: 80%;
+    text-align: right;
+    float: right;
+    margin-top: 20px;
+    border-top: solid 2px #AEB0BB;
+    box-shadow: none;
+}
+.reveal blockquote p {
+    display: block;
+    margin-bottom: 0px;
+}
+.reveal blockquote cite {
+    font-weight: bold;
+    display: block;
+    font-size: 70%;
+}
+.reveal dt {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+}
+.reveal dd {
+    display: block;
+    text-align: left;
+    padding-left: 5%;
+    font-size: 80%;
+}
+.reveal .img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reveal .img-50 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+    max-height: 50%
+}
+
+.reveal .img-70 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+    max-height: 70%
+}
+
+/* pallet: http://paletton.com/#uid=73p0u0k8fnv2uA35ds6bljwdIdF */;
+.reveal .color1 {
+    color: #586E75
+}
+.reveal .color1-lighter {
+    color: #A1ABAE
+}
+.reveal .color1-light {
+    color: #76868C
+}
+.reveal .color1-dark {
+    color: #405961
+}
+.reveal .color1-darker {
+    color: #283D44
+}
+.reveal .color2 {
+    color: #636880
+}
+.reveal .color2-lighter {
+    color: #AEB0BB
+}
+.reveal .color2-light {
+    color: #838799
+}
+.reveal .color2-dark {
+    color: #494F6A
+}
+.reveal .color2-darker {
+    color: #2E334A
+}
+.reveal .color3 {
+    color: #BBAD8B
+}
+.reveal .color3-lighter {
+    color: #FFF9EB
+}
+.reveal .color3-light {
+    color: #E0D5BC
+}
+.reveal .color3-dark {
+    color: #9B8B64
+}
+.reveal .color3-darker {
+    color: #6D5F3E
+}
+.reveal .color4 {
+    color: #BBA48B
+}
+.reveal .color4-lighter {
+    color: #FFF5EB
+}
+.reveal .color4-light {
+    color: #E0CEBC
+}
+.reveal .color4-dark {
+    color: #9B8164
+}
+.reveal .color4-darker {
+    color: #6D563E
+}
+
+.reveal .color5 { color: #FF0000 } /* Main Primary color */
+.reveal .color5-lighter { color: #FF6464 }
+.reveal .color5-light { color: #FF3939 }
+.reveal .color5-dark { color: #C60000 }
+.reveal .color5-darker { color: #9B0000 }
